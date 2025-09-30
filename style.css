@@ -11,13 +11,13 @@ body {
 }
 
 .formulario {
-    background:rgb(0, 0, 0);
+    background:rgb(53, 65, 194);
     padding: 30px;
     border-radius: 12px;
     width: 300px;
 }
 
-form h3 {
+form h1 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 40px;
@@ -31,7 +31,7 @@ form input[type="tel"] {
     padding: 10px;
     margin-bottom: 15px;
     border: none;
-    background-color:rgb(26, 21, 97);
+    background-color:rgb(246, 246, 246);
     color: white;
 }
 

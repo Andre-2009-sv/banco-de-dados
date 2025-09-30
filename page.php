@@ -8,11 +8,12 @@ include "conexao.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>André</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="formulario">  
         <form>
-            <h1>Cadastro</h1>
+            <h1>Formulario</h1>
             <input type="text" placeholder="Login" id="login" class="login">
             <input type="password" placeholder="Senha" id="senha">
             <input type="email" placeholder="Email" id="email">
