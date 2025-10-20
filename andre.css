@@ -1,109 +1,103 @@
-* { font-family: Verdana; font-size: 96%; margin:0; padding:0;}
-label { display: block; margin-top: 10px; }
-label.error { float: none; color: red; margin: 0 .5em 0 0; vertical-align: top; font-size: 10px }
-p { clear: both; }
-.submit { margin-top: 1em; }
-em { font-weight: bold; padding-right: 1em; vertical-align: top; }
-body{
-	background: url(images/black.jpg);
+* {
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-#main{
-	width:500px;
-	margin:auto;
+body {
+  background: url(images/blackpapel.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 16px;
+  color: #fff;
 }
 
-#geral{
-	width:500px;
-	background:#058e09;
-	float:left;
+#main {
+  width: 400px;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  text-align: center;
 }
 
-#header{
-	width:500px;
-	height:100px;
-	background:rgb(47, 47, 47);
-	float:left;
-}
-
-.recados {
-	float: left;
-	width: 480px;
-	margin-bottom: 10px;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #66b82b;
-	background-color: #94e4b3;
-	padding: 10px;
-	list-style-type: none;
+#header {
+  margin-bottom: 20px;
 }
 
 #header h1 {
-	font-size: 30px;
-	font-style: normal;
-	font-weight: bold;
-	color: #ffffff;
-	margin-top: 30px;
-	margin-left: 113px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
 }
+
 #header p {
-	font-size: 13px;
-	font-style: normal;
-	color: #999999;
-	margin-left: 5px;
+  font-size: 14px;
+  color: #d3b897;
+  margin-top: 5px;
 }
-#header a {
-	font-weight: bold;
-	color: #333333;
-}
+
 #formulario_mural {
-	text-align: center;
-	float: left;
-	width: 480px;
-	margin-bottom: 10px;
-	background:#6e6e6e;
-	padding:10px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
 }
-#mural input{
-	width: 150px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	margin-top: 3px;
-	border: 1px solid #666666;
-}
+
+#mural input,
 #mural textarea {
-	padding: 5px;
-	height: 90px;
-	width: 140px;
-	border: 1px solid #666666;
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 2px solid #d4af37;
+  border-radius: 10px;
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
 }
+
+#mural input:focus,
+#mural textarea:focus {
+  border-color: #f2c94c;
+  box-shadow: 0 0 10px rgba(242, 201, 76, 0.5);
+}
+
 .btn {
-	padding: 7px;
-	width: 100px;
-	border: 1px solid #000000;
-	cursor:pointer;
+  padding: 12px 20px;
+  width: 100%;
+  border: none;
+  background-color: #f2c94c;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.btn:hover{
-	background:#eb2121;
-	color:#ffffff;
+.btn:hover {
+  background-color: #d4af37;
+  transform: translateY(-2px);
 }
 
-#footer{
-	width:500px;
-	height:30px;
-	float:left;
-	display:block;
-	background:rgb(47, 47, 47);
-	line-height:30px;
+.recados {
+  width: 100%;
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
 }
 
-#footer p{
-	color:#666666;
-	padding-left:10px;
-}
-
-#footer a{
-	color:#c71212;
-	text-decoration:none;
+.recados li {
+  background-color: #f2c94c;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
 }

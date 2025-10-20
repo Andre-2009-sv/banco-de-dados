@@ -46,11 +46,11 @@ $(document).ready(function() {
 
 <div id="formulario_mural">
 <form id="mural" method="post">
-    <label>Nome:</label>
+    <label>Nome</label>
     <input type="text" name="nome"/><br/>
-    <label>Email:</label>
+    <label>Email</label>
     <input type="text" name="email"/><br/>
-    <label>Mensagem:</label>
+    <label>Mensagem</label>
     <textarea name="msg"></textarea><br/>
     <input type="submit" value="Publicar" name="cadastra" class="btn"/>
 </form>
